@@ -46,9 +46,7 @@
     "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
     "scripts": [
       "scripts/vagrant.sh",
-      "scripts/vboxguest.sh",
-      "scripts/packages.sh",
-      "scripts/compact.sh"
+      "scripts/vboxguest.sh" 
     ]
   }]
 }

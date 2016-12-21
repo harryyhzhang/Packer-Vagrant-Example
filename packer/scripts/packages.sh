@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 # add ppa to install current versions of nodejs
+
+export http_proxy='http://10.100.33.50:8080'
+export https_proxy='http://10.1000.33.50:8080'
+
 apt-get install -y python-software-properties software-properties-common
 add-apt-repository -y ppa:chris-lea/node.js
 apt-get update
